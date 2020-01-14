@@ -1,4 +1,43 @@
 body {
-    background-color: bisque;
-    color: burlywood;
+    background-color: red;
+    clear: both;
+    font-family: fantasy;
+    margin-bottom: 100px;
+    margin: 0;
+    min-height: 400px;
+    text-align: center;
+}
+
+.nav-list {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+    background-color: #333;
+    bottom: 0;
+    color: white;
+    left: 0;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
 }
