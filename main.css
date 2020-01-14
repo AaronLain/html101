@@ -1,3 +1,4 @@
+
 body {
     background-color: red;
     clear: both;
@@ -17,7 +18,7 @@ body {
 }
 
 li {
-    float: left;
+    display: inline-block;
 }
 
 li a{
@@ -40,15 +41,17 @@ footer {
     padding: 0px;
     position: fixed;
     width: 100%;
+    z-index: 0;
 }
 
 .card {
-    border: 2px solid #333;
+    border: 3px solid #333;
     border-radius: 10px;
-    width: 40%;
-    align-self;: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 img {
-    height: 200px;
+    height: 278px;
 }
