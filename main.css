@@ -41,3 +41,14 @@ footer {
     position: fixed;
     width: 100%;
 }
+
+.card {
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 40%;
+    align-self;: center;
+}
+
+img {
+    height: 200px;
+}
